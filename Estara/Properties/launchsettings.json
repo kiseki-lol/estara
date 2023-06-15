@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "Estara (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "Estara (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
