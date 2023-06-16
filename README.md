@@ -1,6 +1,13 @@
 # Estara
 A Kiseki experiment
 
+# Notice
+We want to inform you that our project is currently a work in progress. While it is open source and available for developers to explore, please be aware that Estara is not intended for regular user consumption. Unless you are experienced in software development, we kindly advise against installing Estara in its current state. Thank you for your understanding.
+
+# Requirements
+- 64-bit version of Windows build 17763 or greater (i.e., Version 1809 or greater)
+- .NET 7 runtime (download via `winget install Microsoft.DotNet.SDK.7`)
+
 # License
 ```
 Estara - A Kiseki experiment

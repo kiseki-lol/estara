@@ -4,16 +4,16 @@ using Microsoft.UI.Xaml.Controls;
 
 namespace Estara.Views;
 
-public sealed partial class MainPage : Page
+public sealed partial class PlayPage : Page
 {
-    public MainViewModel ViewModel
+    public PlayViewModel ViewModel
     {
         get;
     }
 
-    public MainPage()
+    public PlayPage()
     {
-        ViewModel = App.GetService<MainViewModel>();
+        ViewModel = App.GetService<PlayViewModel>();
         InitializeComponent();
     }
 }

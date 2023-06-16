@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estara", "Estara\Estara.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estara.Core", "Estara.Core\Estara.Core.csproj", "{6FC83ED3-8060-4415-9B1C-1B7DA39D8AD4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Estara.Patcher", "Estara.Patcher\Estara.Patcher.vcxproj", "{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estara.Tools", "Estara.Tools\Estara.Tools.csproj", "{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,38 @@ Global
 		{6FC83ED3-8060-4415-9B1C-1B7DA39D8AD4}.Release|x64.Build.0 = Release|x64
 		{6FC83ED3-8060-4415-9B1C-1B7DA39D8AD4}.Release|x86.ActiveCfg = Release|x86
 		{6FC83ED3-8060-4415-9B1C-1B7DA39D8AD4}.Release|x86.Build.0 = Release|x86
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Debug|Any CPU.Build.0 = Debug|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Debug|arm64.ActiveCfg = Debug|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Debug|arm64.Build.0 = Debug|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Debug|x64.ActiveCfg = Debug|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Debug|x64.Build.0 = Debug|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Debug|x86.Build.0 = Debug|Win32
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Release|Any CPU.ActiveCfg = Release|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Release|Any CPU.Build.0 = Release|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Release|arm64.ActiveCfg = Release|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Release|arm64.Build.0 = Release|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Release|x64.ActiveCfg = Release|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Release|x64.Build.0 = Release|x64
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Release|x86.ActiveCfg = Release|Win32
+		{E0BC6FDE-61DA-4ACF-BADE-332BDB54D1C9}.Release|x86.Build.0 = Release|Win32
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Debug|arm64.Build.0 = Debug|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Debug|x64.Build.0 = Debug|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Debug|x86.Build.0 = Debug|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Release|arm64.ActiveCfg = Release|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Release|arm64.Build.0 = Release|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Release|x64.ActiveCfg = Release|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Release|x64.Build.0 = Release|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Release|x86.ActiveCfg = Release|Any CPU
+		{AFF88B22-7CB0-4F5B-B707-EFCDAAAA204C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

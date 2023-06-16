@@ -69,24 +69,29 @@ public partial class App : Application
             services.AddSingleton<INavigationService, NavigationService>();
 
             // Core Services
-            services.AddSingleton<ISampleDataService, SampleDataService>();
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
             services.AddTransient<SettingsViewModel>();
             services.AddTransient<SettingsPage>();
-            services.AddTransient<DataGridViewModel>();
-            services.AddTransient<DataGridPage>();
-            services.AddTransient<ContentGridDetailViewModel>();
-            services.AddTransient<ContentGridDetailPage>();
-            services.AddTransient<ContentGridViewModel>();
-            services.AddTransient<ContentGridPage>();
-            services.AddTransient<ListDetailsViewModel>();
-            services.AddTransient<ListDetailsPage>();
-            services.AddTransient<MainViewModel>();
-            services.AddTransient<MainPage>();
-            services.AddTransient<ShellPage>();
+            services.AddTransient<PlayViewModel>();
+            services.AddTransient<PlayPage>();
+            services.AddTransient<PlayViewModel>();
+            services.AddTransient<PlayPage>();
+            services.AddTransient<HostViewModel>();
+            services.AddTransient<HostPage>();
+            services.AddTransient<CharacterViewModel>();
+            services.AddTransient<CharacterPage>();
+            services.AddTransient<VersionsViewModel>();
+            services.AddTransient<VersionsPage>();
+            services.AddTransient<PlacesViewModel>();
+            services.AddTransient<PlacesPage>();
+            services.AddTransient<PackagesViewModel>();
+            services.AddTransient<PackagesPage>();
+            services.AddTransient<BookmarksViewModel>();
+            services.AddTransient<BookmarksPage>();
             services.AddTransient<ShellViewModel>();
+            services.AddTransient<ShellPage>();
 
             // Configuration
             services.Configure<LocalSettingsOptions>(context.Configuration.GetSection(nameof(LocalSettingsOptions)));
